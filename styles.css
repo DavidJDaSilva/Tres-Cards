@@ -31,7 +31,7 @@ a {
   justify-content: center;
   margin-top: 60px;
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-align: left;
 }
@@ -52,10 +52,16 @@ a {
 .card-2,
 .card-3 {
   display: grid;
-  box-shadow: .1em .1em .1em gray, -.1em .1em .4em gray;
+  box-shadow: 0.1em 0.1em 0.1em gray, -0.1em 0.1em 0.4em gray;
   border-radius: 5px;
   padding: 27px 0 27px 0;
   height: 200px;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  background-color: rgb(230, 230, 230);
 }
 
 .card-text {
